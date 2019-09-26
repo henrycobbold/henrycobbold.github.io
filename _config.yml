@@ -110,8 +110,8 @@ author:
   name             :  "Henry Cobbold"
   avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :  "Portfolio of Information Technology Work, Projects and Research"
-  location         :  "Exeter, Devon & Swansea, Glamorgan"
-  email            :  "cobboldhenry@gmail.com"
+  location         :  "Exeter & Swansea"
+  #email           :  not needed here as added below
   links:
     - label:          "Email"
       icon:           "fas fa-fw fa-envelope-square"
@@ -120,7 +120,7 @@ author:
       icon:           "fas fa-fw fa-link"
       # url:          "https://your-website.com" #no website created by me yet
     - label:          "linkedin"
-      icon:           "fab fa-fw fa-linkedin-square"
+      icon:           "fab fa fa-linkedin-square"
       url:            "https://www.linkedin.com/in/henry-cobbold-49823a143/"
     - label:          "Facebook"
       icon:           "fab fa-fw fa-facebook-square"
@@ -300,4 +300,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
