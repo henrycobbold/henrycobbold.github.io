@@ -113,24 +113,24 @@ author:
   location         :  "Exeter & Swansea"
   #email           :  not needed here as added below
   links:
-    - label:          "Email"
-      icon:           "fas fa-fw fa-envelope-square"
-      url:            mailto:cobboldhenry@gmail.com
-    - label:          "Website"
-      icon:           "fas fa-fw fa-link"
-      # url:          "https://your-website.com" #no website created by me yet
-    - label:          "Linkedin"
-      icon:           "fas fa-fw fa-link"
-      # url:            "https://www.linkedin.com/in/henry-cobbold-49823a143/"
-    - label:          "Facebook"
-      icon:           "fab fa-fw fa-facebook-square"
-      url:            "https://www.facebook.com/profile.php?id=100005547165347" #my profile home
-    - label:          "GitHub"
-      icon:           "fab fa-fw fa-github"
-      url:            "https://github.com/henrycobbold"
-    - label:          "Instagram"
-      icon:           "fab fa-fw fa-instagram"
-      # url:          "https://instagram.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
