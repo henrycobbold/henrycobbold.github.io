@@ -1,5 +1,5 @@
 ---
-layout: archives
+layout: archive
 permalink: /mywork/
 title: "My Portfolio of Work by Tags"
 author_profile: true
