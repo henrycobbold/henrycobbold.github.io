@@ -119,8 +119,8 @@ author:
     - label:          "Website"
       icon:           "fas fa-fw fa-link"
       # url:          "https://your-website.com" #no website created by me yet
-    - # label:          "Linkedin"
-      # icon:           "fas fa-fw fa-link"
+    - label:          "Linkedin"
+      icon:           "fas fa-fw fa-link"
       # url:            "https://www.linkedin.com/in/henry-cobbold-49823a143/"
     - label:          "Facebook"
       icon:           "fab fa-fw fa-facebook-square"
