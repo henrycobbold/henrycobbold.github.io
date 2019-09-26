@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             :  "Henry Cobbold"
-  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/images/bio_and_generic_images/bio-photo.jpg"
   bio              :  "Portfolio of Information Technology Work, Projects and Research"
   location         :  "Exeter & Swansea"
   #email           :  not needed here as added below
@@ -119,8 +119,8 @@ author:
     - label:          "Website"
       icon:           "fas fa-fw fa-link"
       # url:          "https://your-website.com" #no website created by me yet
-    - label:          "linkedin"
-      icon:           "fab fa fa-linkedin-square"
+    - label:          "Linkedin"
+      icon:           "fab fa-fw fa-linkedin-square"
       url:            "https://www.linkedin.com/in/henry-cobbold-49823a143/"
     - label:          "Facebook"
       icon:           "fab fa-fw fa-facebook-square"
