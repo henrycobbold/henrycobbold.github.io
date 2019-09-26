@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /mywork/
+permalink: /my_portfolio_entries/
 title: "My Portfolio of Work by Tags"
 author_profile: true
 header:
