@@ -4,7 +4,7 @@ permalink: /mywork/
 title: "My Portfolio of Work by Tags"
 author_profile: true
 header:
-  image: "/images/bio_and_generic_images/grad-image-1.jpg"
+  image: "/images/grad_image_1.png"
 ---
 
 {% include base_path %}
