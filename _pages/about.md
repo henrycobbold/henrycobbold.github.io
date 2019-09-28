@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "My Work Showcase"
 permalink: /about/
 header:
   image:

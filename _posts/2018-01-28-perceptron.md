@@ -1,9 +1,9 @@
 ---
-title: "Data Wrangling Project"
+title: "Final Year Dissertation"
 date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+tags: [dissertation, major project, usability, testing, prototype]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/project_demo_day_3.png"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
