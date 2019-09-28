@@ -28,6 +28,7 @@ Below is a brief discussion of the different steps of the project with particula
 <font size="3">smaller text here</font>
 
 It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product.
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
 
 
@@ -42,6 +43,7 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 
 ### Work(s) used in project summary
 
+<font size="3">
 [65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
 
 [77] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.
@@ -54,6 +56,7 @@ Oper. Manag.*, vol. 6, no. 2, pp. 133–148, 2004.
 
 [26] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA:
 Productivity Press, 1988.
+</font>
 
 
 COMMENTED OUT SECTION WHEN REQUIRED THAT CONTAINS ALL FORMATTING SYNTAX NEEDED:
