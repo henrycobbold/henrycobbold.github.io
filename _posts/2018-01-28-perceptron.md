@@ -43,7 +43,7 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 
 ### Work(s) used in project summary
 
-<font size="3">[65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.</font>
+[65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
 
 <font size="3">[77] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.</font>
 
