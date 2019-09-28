@@ -26,7 +26,8 @@ Below is a brief discussion of the different steps of the project with particula
 *“The extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use”* [65],[77],[84]
 
 It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product.
-<img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
+
+              <img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
 
 
 
@@ -38,7 +39,7 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 
 
 
-# Work(s) used in project summary
+### Work(s) used in project summary
 
 [65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
 
