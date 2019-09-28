@@ -25,7 +25,7 @@ Below is a brief discussion of the different steps of the project with particula
 
 *“The extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use”* [65],[77],[84]
 
-<span style="font-size:8em;">smaller text here</span>
+<span style="font-size:5;">smaller text here</span>
 
 It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product.
 <img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
