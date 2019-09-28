@@ -43,20 +43,18 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 
 ### Work(s) used in project summary
 
-<font size="3">
-[65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
+<font size="3">[65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.</font>
 
-[77] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.
+<font size="3">[77] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.</font>
 
-[84] N. Bevan and M. Macleod, “Usability measurement in context,” *Behav. Inf. Technol.*, vol. 13,
-no. 1, pp. 132–145, 1994.
+<font size="3">[84] N. Bevan and M. Macleod, “Usability measurement in context,” *Behav. Inf. Technol.*, vol. 13,
+no. 1, pp. 132–145, 1994.</font>
 
-[14] W. J. Hopp and M. L. Spearman, “To Pull or Not to Pull: What Is the Question?,” *Manuf. Serv.
-Oper. Manag.*, vol. 6, no. 2, pp. 133–148, 2004.
+<font size="3">[14] W. J. Hopp and M. L. Spearman, “To Pull or Not to Pull: What Is the Question?,” *Manuf. Serv.
+Oper. Manag.*, vol. 6, no. 2, pp. 133–148, 2004.</font>
 
-[26] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA:
-Productivity Press, 1988.
-</font>
+<font size="3">[26] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA:
+Productivity Press, 1988.</font>
 
 
 COMMENTED OUT SECTION WHEN REQUIRED THAT CONTAINS ALL FORMATTING SYNTAX NEEDED:
