@@ -4,7 +4,7 @@ date: 2018-01-28
 tags: [dissertation, major project, usability, testing, prototype]
 header:
   image: "/images/project_demo_day_3.png"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Prototype Application, UXD, Usability Testing"
 mathjax: "true"
 ---
 
