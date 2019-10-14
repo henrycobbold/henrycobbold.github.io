@@ -214,7 +214,7 @@ At the end of the process a test user was invited to complete the SUS form, as w
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/brookes_SUS_form.png" alt="linearly separable data">
 
-In this scale a score of usability is calculated with the contribution of questions 1/3/5/7/9 the scale position indicated minus one. Questions 2/4/6/8/10 carrying forward a score 5 minus that indicated by the test subject on the form. The summed of the 10 fields are then totalled and multiplied by 2.5 to provide a score /100. 68 or above is suggested to represent above average usability [186].
+In this scale a score of usability is calculated with the contribution of questions 1/3/5/7/9 the scale position indicated minus one. Questions 2/4/6/8/10 carrying forward a score 5 minus that indicated by the test subject on the form. The sum of the 10 fields are then totalled and multiplied by 2.5 to provide a score out of 100. 68 or above is suggested to represent above average system usability [186].
 
 This combination of soft user opinion and harder statistical data can now be more systematically documented in order to clearly identify the important trends experienced during the user testing; a process eased with access to the screen capture and microphone for reference.
 
