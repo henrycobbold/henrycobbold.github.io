@@ -33,11 +33,11 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 
 The development methodology selected for the project was feature-driven development, one of the most popular agile methods. This framework aims to construct the feature list into feature sets containing client-valued product functionality. By then assigning the design and development of each feature set to a particular group or individual for construction working software takes precedence.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/fdd_methodology_traits.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/FDD_method.png" alt="linearly separable data">
 
 The value of this method in this project scenario can be seen below in the following table.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/FDD_method.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/fdd_methodology_traits.png" alt="linearly separable data">
 
 The flow diagram below shows in more detail how the impact of project deadlines in integral to this Agile method. By concentrating on prioritised (MoSCoW) software feature sets the most important features are delivered first - those that are less significant can be developed if time allows.
 
