@@ -202,8 +202,6 @@ Below shows the format of the Krug script, a popular and highly adaptable framew
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/krug_user_test.png" alt="linearly separable data">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/krug_intro_1.png" alt="linearly separable data">
-
 
 These printed scripts were used by the interviewer to note down the key outcomes of the testing, a task aided by screen capture software, as seen below in this capture of one such interview. For this scenario 'Silverback' for OSX was ideal.
 
