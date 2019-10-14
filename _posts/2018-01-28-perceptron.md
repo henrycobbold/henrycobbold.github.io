@@ -25,13 +25,21 @@ Below is a brief discussion of the different steps of the project with particula
 
 *“The extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use”* [65],[77],[84]
 
-It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product.
+It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product [95].
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
 
 ## Development Methodology
 
+The development methodology selected for the project was feature-driven development, one of the most popular agile methods. This framework aims to construct the feature list into feature sets containing client-valued product functionality. By then assigning the design and development of each feature set to a particular group or individual for construction working software takes precedence.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/fdd_methodology_traits.png" alt="linearly separable data">
+
+The value of this method in this project scenario can be seen below in the following table.
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/FDD_method.png" alt="linearly separable data">
+
+The flow diagram below shows in more detail how the impact of project deadlines in integral to this Agile method. By concentrating on prioritised (MoSCoW) software feature sets the most important features are delivered first - those that are less significant can be developed if time allows.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/FDD_Iteration_Element.png" alt="linearly separable data">
 
@@ -235,6 +243,8 @@ For this process I used a simple report format, as illustrated below.
 
 [26] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA:
 Productivity Press, 1988.
+
+[95] P. Morville, “User Experience Design,” *Semantic Studios*, 2004. [Online]. Available: https://semanticstudios.com/user_experience_design/. [Accessed: 18-Dec-2018].
 
 [178] J. Worthen, “Creating A Log Table To Track Changes To Database Objects In SQL Server,” *SQL Server*, 2018. [Online]. Available: https://jackworthen.com/2018/03/19/creating-a-log-table- to-track-changes-to-database-objects-in-sql-server/. [Accessed: 15-Mar-2019].
 
