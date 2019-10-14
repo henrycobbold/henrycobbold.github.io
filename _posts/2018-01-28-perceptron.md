@@ -254,6 +254,8 @@ Productivity Press, 1988.
 [191] S. Krug, *Don’t make me think, revisited: a common sense approach to Web usability*, 3rd ed. San Francisco, CA: New Riders, 2014.
 
 
+<!--
+
 COMMENTED OUT SECTION WHEN REQUIRED THAT CONTAINS ALL FORMATTING SYNTAX NEEDED:
 
 ## H2 Heading
@@ -306,4 +308,4 @@ Here's some math:
 
 $$z=x+y$$
 
-You can also put it inline $$z=x+y$$
+You can also put it inline $$z=x+y$$ -->
