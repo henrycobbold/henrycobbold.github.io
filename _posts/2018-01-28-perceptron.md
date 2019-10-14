@@ -55,7 +55,7 @@ This process was aided by the construction of employee personas so as to clearly
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_main_menu.png" alt="linearly separable data">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_search_schedule.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_search_order_schedule.png" alt="linearly separable data">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_job_details.png" alt="linearly separable data">
 
