@@ -162,7 +162,38 @@ SELECT * FROM nnnnnnnnnnnnnn WHERE EventType = 'ALTER_TABLE'
 
 In numerous places the limited development options restricted the changes available to me when I performed the cognitive walkthrough. For this reason, I look back on the project with some mixed emotions. The form-based structure provided by *Appenate* was certainly what I was looking to achieve, but elements of its built-in functionality provided challenges which were difficult to overcome and created a disparity between the initial wireframes and the first prototype system.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/appenate_platform.png" alt="linearly separable data">
 
+Although the prototype was destined for an iPad screen size most screen views were taken from an iPhone (SE).
+
+*Main Menu*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_main_menu.png" alt="linearly separable data">
+
+*Edit an existing record or create new*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_create_new_order.png" alt="linearly separable data">
+
+*Order details page*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_order_details.png" alt="linearly separable data">
+
+*Searchable checkboxes allowing a user to view two product IDs contained in an existing component order (Order "12").*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_search_order_schedule.png" alt="linearly separable data">
+
+*Changes made to records in this application are contained locally and placed in "Saved Entries" before they can be pushed back to the Appenate server.*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_saved_changes.png" alt="linearly separable data">
+
+*A view of several controls clearly identified in the wireframe design stage:*
+*Standard wheel picker*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_picker_control.png" alt="linearly separable data">
+
+*Text entry through keyboard*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_text_control.png" alt="linearly separable data">
 
 ## Cognitive Walkthrough
 
