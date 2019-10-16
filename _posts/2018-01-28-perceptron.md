@@ -60,19 +60,22 @@ This process was aided by the construction of employee personas so as to clearly
 With an understanding of the applications most important features, traits and user groups initial designs can be created. Given the timespan of the project I had little opportunity to develop and test simple monochrome wireframes - instead diving straight into colour mockups that used the primary colours (and where possible fonts) used by the company.
 
 *Sign in screen*
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_login.png" alt="linearly separable data">
 
 *A two-pane layout is a common tablet design pattern*
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_main_menu.png" alt="linearly separable data">
 
-*A masked views of several primary screens demonstrating the intended use of several common controls*
+*Masked views of several primary screens demonstrating the intended use of several common controls*
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_search_order_schedule.png" alt="linearly separable data">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_job_details.png" alt="linearly separable data">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_order_details.png" alt="linearly separable data">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_new_order.png" alt="linearly separable data"
+<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_new_order.png" alt="linearly separable data">
 
 
 ## Database and Information Architecture Design and Development
@@ -157,31 +160,36 @@ SELECT * FROM nnnnnnnnnnnnnn WHERE EventType = 'ALTER_TABLE'
 
 ## Interface Development
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_main_menu.png" alt="linearly separable data">
-
 In numerous places the limited development options restricted the changes available to me when I performed the cognitive walkthrough. For this reason, I look back on the project with some mixed emotions. The form-based structure provided by *Appenate* was certainly what I was looking to achieve, but elements of its built-in functionality provided challenges which were difficult to overcome and created a disparity between the initial wireframes and the first prototype system.
 
 Although the prototype was destined for an iPad screen size most screen views were taken from an iPhone (SE).
 
-Edit an existing record or create new
+*Main Menu*
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_main_menu.png" alt="linearly separable data">
+
+*Edit an existing record or create new*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_create_new_order.png" alt="linearly separable data">
 
-Order details page
+*Order details page*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_order_details.png" alt="linearly separable data">
 
-Searchable checkboxes allowing a user to view two product IDs contained in an existing component order (Order "12").
+*Searchable checkboxes allowing a user to view two product IDs contained in an existing component order (Order "12").*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_search_order_schedule.png" alt="linearly separable data">
 
-Changes made to records in this application are contained locally and placed in "Saved Entries" before they can be pushed back to the Appenate server.
+*Changes made to records in this application are contained locally and placed in "Saved Entries" before they can be pushed back to the Appenate server.*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_saved_changes.png" alt="linearly separable data">
 
-A view of several controls clearly identified in the wireframe design stage:
+*A view of several controls clearly identified in the wireframe design stage:*
+*Standard wheel picker*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_picker_control.png" alt="linearly separable data">
+
+*Text entry*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_text_control.png" alt="linearly separable data">
 
@@ -191,10 +199,13 @@ For each Personas associated User Story a walkthrough of the steps required to f
 
 This understanding can be gained by asking four questions of a user at any location in the system:
 
-Q1: Does the user know what needs to be done? Is the user aware of what they want or need to do? [183],[184]
-Q2: Can the user see a control to do that? Is there anything visible that the user feels can help them perform this action? [183],[184]
-Q3: Is it obvious how the control works? Is it clear how the on-screen visual should be used to achieve successful interaction? [183]
-Q4: Does the user understand the feedback they have been given? Can the user make sense of the outcome of the system interaction? [183],[184]
+  Q1: Does the user know what needs to be done? Is the user aware of what they want or need to do? [183],[184]
+
+  Q2: Can the user see a control to do that? Is there anything visible that the user feels can help them perform this action? [183],[184]
+
+  Q3: Is it obvious how the control works? Is it clear how the on-screen visual should be used to achieve successful interaction? [183]
+
+  Q4: Does the user understand the feedback they have been given? Can the user make sense of the outcome of the system interaction? [183],[184]
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/cognitive_walkthrough_tables.png" alt="linearly separable data">
 
@@ -202,7 +213,7 @@ Having evaluated these initial wireframe designs from a developer-perspective, a
 
 To quickly and efficiently gather both qualitative and quantitative data Brooke's *"quick and dirty"* 'System Usability Scale' [186] was used alongside the universally popular Krug [187],[191] framework - devised and refined by Steve Krug.
 
-Below shows the format of the Krug script, a popular and highly adaptable framework for user-based testing of which a considerable number of professionals have adopted and manipulated over time.
+Below shows the extracts of the Krug script, a popular and highly adaptable framework for user-based testing that has adopted and manipulated over time by many professionals.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/krug_intro.png" alt="linearly separable data">
 
@@ -230,6 +241,9 @@ For this process I used a simple report format, as illustrated below.
 <img src="{{ site.url }}{{ site.baseurl }}/images/formal_test_documentation.png" alt="linearly separable data">
 
 
+## Main Project Outcomes, Evaluation and Reflection
+
+final application evaluation, my opinions and critical reflection section.
 
 
 
