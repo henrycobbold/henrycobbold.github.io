@@ -57,19 +57,27 @@ This process was aided by the construction of employee personas so as to clearly
 
 ## Full-colour Interface Mock-ups
 
+With an understanding of the applications most important features, traits and user groups initial designs can be created. Given the timespan of the project I had little opportunity to develop and test simple monochrome wireframes - instead diving straight into colour mockups that used the primary colours (and where possible fonts) used by the company.
+
+*Sign in screen*
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_login.png" alt="linearly separable data">
 
+*A two-pane layout is a common tablet design pattern*
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_main_menu.png" alt="linearly separable data">
 
+*A masked views of several primary screens demonstrating the intended use of several common controls*
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_search_order_schedule.png" alt="linearly separable data">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_job_details.png" alt="linearly separable data">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_order_details.png" alt="linearly separable data">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_new_order.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mockup_new_order.png" alt="linearly separable data"
+
 
 ## Database and Information Architecture Design and Development
+
+Alongside front-end design a new database system would be required to support the digital administration of vehicle management. To do this an SQL database, on which the form-based application would run, needed designing and developing. Shown below is a Coad colour-coded Unified Modelling Language (UML) diagram for a class-based application.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/blanked_UML.png" alt="linearly separable data">
 
@@ -77,50 +85,46 @@ This architecture is similar then referenced in a database entity relationship d
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/database_ERD.png" alt="linearly separable data">
 
-sql code block:
+Rather than a simple `INT` type the incremental `IDENTITY()` type was used in one table.
 ```sql
- Order_ID [INT] IDENTITY(1,1) NOT NULL CONSTRAINT PK_Order_ID PRIMARY KEY,
+ nnnnn_nn [INT] IDENTITY(1,1) NOT NULL CONSTRAINT PK_nnnnn_nn PRIMARY KEY,
 ```
 
-sql code block:
+In cases of erronous `INSERT INTO` statements the `CHECKIDENT` command was required to reset the incremental field value.
 ```sql
-DBCC CHECKIDENT ('Maintenance_Job', RESEED, 0); GO
+DBCC CHECKIDENT ('***********_***', RESEED, 0); GO
 ```
 
-The database with the above schema was created in SQL - extracts of which are shown below including table creation and population
+Once satisfied that this schema enforced the required business rules and provided database integrity the database was created in SQL and hosted by Azure - extracts of which are shown below including table creation and population. Tables names and database comments have been covered for confidentiality.
 
 Creating a central table:
 ```sql
-CREATE TABLE Maintenance_Job(
-	  Job_ID [INT] IDENTITY(1,1) NOT NULL CONSTRAINT PK_Job_ID PRIMARY KEY,
-    Job_Vehicle_No VARCHAR(5) NOT NULL, FOREIGN KEY (Job_Vehicle_No) REFERENCES Vehicle(Vehicle_TOPS_ID),
-    Vice_Vehicle_No VARCHAR(5), FOREIGN KEY (Vice_Vehicle_No) REFERENCES Vehicle(Vehicle_TOPS_ID),
-    Depot CHAR(2) NOT NULL, FOREIGN KEY (Depot) REFERENCES Depot(Depot_ID),
-	  Vehicle_Due_Stop_DateTime DATETIME, --nullable: vehicle stop could be corrective/unplanned
-    Vehicle_Act_Stop_DateTime DATETIME, --nullable: vehicle might not actually stop for maintenance as scheduled
-    Exam_Due_Start_DateTime DATETIME, --nullable: vehicle stop could be corrective/unplanned w/ no due start
-    Exam_Act_Start_DateTime DATETIME, --nullable: vehicle might not actually stop for maintenance w/ no actual start date
-    Exam_Due_End_DateTime DATETIME, --nullable: vehicle stop could be corrective w/ no anticipated end date
-    Exam_Act_End_DateTime DATETIME, --nullable: vehicle might not actually stop for maintenance w/ no actual end date
-    Vehicle_Due_Return_DateTime DATETIME, --might be no due return date
-    Vehicle_Act_Return_DateTime DATETIME, --nullable: vehicle might not actually stop for maintenance
-    Total_Job_Hours DEC(4,1) NOT NULL, --'0' if not undertaken. Only includes work times, not total vehicle stop time
-    Staff_Signed_Off INT NOT NULL, FOREIGN KEY (Staff_Signed_Off) REFERENCES Staff(Staff_ID),
-    Signed_Off_DateTime DATETIME NOT NULL, --must have a signed off date, even if maintenance didn't occur
-    Staff_Approved_Job INT NOT NULL, FOREIGN KEY (Staff_Approved_Job) REFERENCES Staff(Staff_ID),
-    Job_Comments VARCHAR(MAX), --comments field
-    CONSTRAINT CHK_Vehicle_Swap
-        CHECK(Vice_Vehicle_No != Job_Vehicle_No), /*check added to FK fields to ensure vehicle IDs are not the same,
-        must be different vehicle going out (if a vehicle is returning after maintenance)*/
+CREATE TABLE nnnnnnnnnnn_nnn(
+	  nnn_nn [INT] IDENTITY(1,1) NOT NULL CONSTRAINT PK_nnn_nn PRIMARY KEY,
+    nnn_nnnnnnn_nn VARCHAR(5) NOT NULL, FOREIGN KEY (nnn_nnnnnnn_nn) REFERENCES nnnnnnn(nnnnnnn_nnnn_nn),
+    nnnn_nnnnnnn_nn VARCHAR(5), FOREIGN KEY (nnnn_nnnnnnn_nn) REFERENCES nnnnnnn(nnnnnnn_nnnn_nn),
+    nnnnn CHAR(2) NOT NULL, FOREIGN KEY (nnnnn) REFERENCES nnnnn(nnnnn_nn),
+	  nnnnnnn_nnn_nnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnnnnn_nnn_nnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnn_nnn_nnnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnn_nnn_nnnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnn_nnn_nnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnn_nnn_nnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnnnnn_nnn_nnnnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnnnnn_nnn_nnnnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnnn_nnn_nnnnn DEC(4,1) NOT NULL, --covered for confidentiality
+    nnnnn_nnnnnn_nnn INT NOT NULL, FOREIGN KEY (nnnnn_nnnnnn_nnn) REFERENCES nnnnn(nnnnn_nn),
+    nnnnnn_nnn_nnnnnnnn DATETIME NOT NULL, --covered for confidentiality
+    nnnnn_nnnnnnnn_nnn INT NOT NULL, FOREIGN KEY (nnnnn_nnnnnnnn_nnn) REFERENCES nnnnn(nnnnn_nn),
+    nnn_nnnnnnnn VARCHAR(MAX), --covered for confidentiality
+    CONSTRAINT CHK_nnnnnnn_nnnn
+        CHECK(nnnn_nnnnnnn_nn != nnn_nnnnnnn_nn), /*covered for confidentiality*/
 );
 ```
 
 Populating a central table:
 ```sql
-/* A Exam */ INSERT INTO Maintenance_Job (Job_Vehicle_No, Vice_Vehicle_No, Depot, Vehicle_Due_Stop_DateTime, Vehicle_Act_Stop_DateTime, Exam_Due_Start_DateTime, Exam_Act_Start_DateTime, Exam_Due_End_DateTime, Exam_Act_End_DateTime, Vehicle_Due_Return_DateTime, Vehicle_Act_Return_DateTime, Total_Job_Hours, Staff_Signed_Off, Signed_Off_DateTime, Staff_Approved_Job, Job_Comments) VALUES ('43010', '43196', 'LA', '26-Oct-2018 02:00', '25-Mar-2018 11:00', '26-Mar-2018 15:00', '26-Mar-2018 09:00', '26-Mar-2018 00:00', '26-Mar-2018 11:00', '27-Mar-2018 02:00', '27-March-2018 02:00', '7.5', 9, '26-Mar-2018 00:00', 13, null);
-/* Corrective Job */ INSERT INTO Maintenance_Job (Job_Vehicle_No, Vice_Vehicle_No, Depot, Vehicle_Due_Stop_DateTime, Vehicle_Act_Stop_DateTime, Exam_Due_Start_DateTime, Exam_Act_Start_DateTime, Exam_Due_End_DateTime, Exam_Act_End_DateTime, Vehicle_Due_Return_DateTime, Vehicle_Act_Return_DateTime, Total_Job_Hours, Staff_Signed_Off, Signed_Off_DateTime, Staff_Approved_Job, Job_Comments) VALUES ('43140', '43087', 'LA', null, '26-Mar-2018 22:00', null, '27-Mar-2018 02:00', null, '27-Mar-2018 12:00', null, '27-Mar-2018 17:30', '5.5', 1, '27-Mar-2018 19:25', 12, null);
-/* C4 Exam */ INSERT INTO Maintenance_Job (Job_Vehicle_No, Vice_Vehicle_No, Depot, Vehicle_Due_Stop_DateTime, Vehicle_Act_Stop_DateTime, Exam_Due_Start_DateTime, Exam_Act_Start_DateTime, Exam_Due_End_DateTime, Exam_Act_End_DateTime, Vehicle_Due_Return_DateTime, Vehicle_Act_Return_DateTime, Total_Job_Hours, Staff_Signed_Off, Signed_Off_DateTime, Staff_Approved_Job, Job_Comments) VALUES ('42092', '42067', 'LA', '25-Mar-2018 19:00', '25-Mar-2018 03:00', '25-Mar-2018 22:30', '25-Mar-2018 04:00', '29-Mar-2018 22:00', '29-Mar-2018 19:30', '29-Mar-2018 22:30', '30-Mar-2018 05:15', '190', 6, '29-Mar-2018 20:00', 2, 'C4 Exam + T/T + Vestibule A door 1 reported sticking repaired');
-);
+/* covered for confidentiality */ INSERT INTO nnnnnnnnnnn_nnn (nnn_nnnnnnn_nn, nnnn_nnnnnnn_nn, nnnnn, nnnnnnn_nnn_nnnn_nnnnnnnn, nnnnnnn_nnn_nnnn_nnnnnnnn, nnnn_nnn_nnnnn_nnnnnnnn, nnnn_nnn_nnnnn_nnnnnnnn, nnnn_nnn_nnn_nnnnnnnn, nnnn_nnn_nnn_nnnnnnnn, nnnnnnn_nnn_nnnnnn_nnnnnnnn, nnnnnnn_nnn_nnnnnn_nnnnnnnn, nnnnn_nnn_nnnnn, nnnnn_nnnnnn_nnn, nnnnnn_nnn_nnnnnnnn, nnnnn_nnnnnnnn_nnn, nnn_nnnnnnnn) VALUES ('*****', '*****', '**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '**-***-**** **:**', '*.*', *, '**-***-**** **:**', **, ****);
 ```
 
 a single database audit table can be used to record DDL actions performed by database users, as shown below in this solution originally presented by
@@ -130,7 +134,7 @@ Jack Worthen [178].
 CREATE TABLE WholeSystemLog(
     LogID [INT] IDENTITY(1,1) NOT NULL CONSTRAINT Pk_Log_ID PRIMARY KEY, --unique ID for each change in a database contents
     DatabaseName VARCHAR(256) NOT NULL, --in which db did this change occur?
-    EventType VARCHAR(50) NOT NULL, --"ADD / ALTER / DROP" then type [_procedure/table/function/view]
+    EventType VARCHAR(50) NOT NULL, --action type "ADD / ALTER / DROP" performed on object type [_procedure/table/function/view]
     ObjectName VARCHAR(256) NOT NULL, --procedure name, table name, function name or view name
     ObjectType VARCHAR(25) NOT NULL, --its either a procedure, table, function, view
     TSQLCommand VARCHAR(MAX) NOT NULL, --copies in the code that was ran, (MAX) size of up to 2GB rather than 256
@@ -142,13 +146,13 @@ CREATE TABLE WholeSystemLog(
 The integrity of this table can be tested by executing a DDL action, in this scenario an 'ALTER_TABLE' statement, to ensure the event type is recorded along with the target object name (table name), DATETIME of SQL execution and the associated login name.
 
 ```sql
-ALTER TABLE Job_Order ADD Order_AcceptedDateTime DATETIME;
+ALTER TABLE nnn_nnnnn ADD nnnnn_nnnnnnnnnnnnnnnn DATETIME;
 ```
 
 A simple 'SELECT (all)' statement is used to return all the entries in the log table.
 
 ```sql
-SELECT * FROM WholeSystemLog WHERE EventType = 'ALTER_TABLE'
+SELECT * FROM nnnnnnnnnnnnnn WHERE EventType = 'ALTER_TABLE'
 ```
 
 ## Interface Development
