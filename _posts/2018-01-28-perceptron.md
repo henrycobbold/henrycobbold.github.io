@@ -32,7 +32,6 @@ It is widely documented that "useable" software fulfils a range of qualities. Th
 ## Development Methodology
 
 The development methodology selected for the project was feature-driven development, one of the most popular agile methods. This framework aims to construct the feature list into feature sets containing client-valued product functionality. By then assigning the design and development of each feature set to a particular group or individual for construction working software takes precedence.
-
 <img src="{{ site.url }}{{ site.baseurl }}/images/FDD_method.png" alt="linearly separable data">
 
 The value of this method in this project scenario can be seen below in the following table.
@@ -42,10 +41,9 @@ The value of this method in this project scenario can be seen below in the follo
 The flow diagram below shows in more detail how the impact of project deadlines in integral to this Agile method. By concentrating on prioritised (MoSCoW) software feature sets the most important features are delivered first - those that are less significant can be developed if time allows.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/FDD_Iteration_Element.png" alt="linearly separable data">
-
 ## Requirement Gathering, Understanding Users and Feature Prioritisation
 
-The initial requirement gathering process is one of the crucial tasks associated with the development of a new IT product or service. In contact with a team of engineers at Laira Maintenance Facility, I was able understand the current processes and systems used to order, store and allocate resources to rail vehicles (namely HST power cars and trailer stock).
+The initial requirement gathering process is one of the crucial tasks associated with the development of a new IT product or service. In contact with a team of engineers at Laira Maintenance Facility, I was able understand the current processes and systems used to order, store and allocate resources to rail vehicles (HST power cars and trailer stock).
 
 A range of system requirements were noted during this process over several visits which involved access to internal documents and discussion sheets. Whilst this is a publicly accessible portfolio of work, these communications will not be made public (and any reference to content within these later in the project will be blanked)
 
