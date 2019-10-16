@@ -162,6 +162,8 @@ SELECT * FROM nnnnnnnnnnnnnn WHERE EventType = 'ALTER_TABLE'
 
 In numerous places the limited development options restricted the changes available to me when I performed the cognitive walkthrough. For this reason, I look back on the project with some mixed emotions. The form-based structure provided by *Appenate* was certainly what I was looking to achieve, but elements of its built-in functionality provided challenges which were difficult to overcome and created a disparity between the initial wireframes and the first prototype system.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/appenate_platform.png" alt="linearly separable data">
+
 Although the prototype was destined for an iPad screen size most screen views were taken from an iPhone (SE).
 
 *Main Menu*
@@ -189,7 +191,7 @@ Although the prototype was destined for an iPad screen size most screen views we
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_picker_control.png" alt="linearly separable data">
 
-*Text entry*
+*Text entry through keyboard*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_text_control.png" alt="linearly separable data">
 
