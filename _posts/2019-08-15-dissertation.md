@@ -1,5 +1,5 @@
 ---
-title: "Example Project Post"
+title: "Final Year Dissertation"
 date: 2019-08-15
 tags: [dissertation, major project, usability, testing, prototype]
 header:
