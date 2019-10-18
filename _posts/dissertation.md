@@ -107,7 +107,7 @@ CREATE TABLE nnnnnnnnnnn_nnn(
     nnn_nnnnnnn_nn VARCHAR(5) NOT NULL, FOREIGN KEY (nnn_nnnnnnn_nn) REFERENCES nnnnnnn(nnnnnnn_nnnn_nn),
     nnnn_nnnnnnn_nn VARCHAR(5), FOREIGN KEY (nnnn_nnnnnnn_nn) REFERENCES nnnnnnn(nnnnnnn_nnnn_nn),
     nnnnn CHAR(2) NOT NULL, FOREIGN KEY (nnnnn) REFERENCES nnnnn(nnnnn_nn),
-	  nnnnnnn_nnn_nnnn_nnnnnnnn DATETIME, --covered for confidentiality
+    nnnnnnn_nnn_nnnn_nnnnnnnn DATETIME, --covered for confidentiality
     nnnnnnn_nnn_nnnn_nnnnnnnn DATETIME, --covered for confidentiality
     nnnn_nnn_nnnnn_nnnnnnnn DATETIME, --covered for confidentiality
     nnnn_nnn_nnnnn_nnnnnnnn DATETIME, --covered for confidentiality
