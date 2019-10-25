@@ -59,15 +59,15 @@ This process was aided by the construction of employee personas so as to clearly
 
 With an understanding of the applications most important features, traits and user groups initial designs can be created. Given the timespan of the project I had little opportunity to develop and test simple monochrome wireframes - instead diving straight into colour mockups that used the primary colours (and where possible fonts) used by the company.
 
-*Sign in screen*
+*--Sign in screen--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_login.png" alt="linearly separable data">
 
-*A two-pane layout is a common tablet design pattern*
+*--A two-pane layout is a common tablet design pattern--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_main_menu.png" alt="linearly separable data">
 
-*Masked views of several primary screens demonstrating the intended use of several common controls*
+*--Masked views of several primary screens demonstrating the intended use of several common controls--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mockup_search_order_schedule.png" alt="linearly separable data">
 
@@ -166,32 +166,32 @@ In numerous places the limited development options restricted the changes availa
 
 Although the prototype was destined for an iPad screen size most screen views were taken from an iPhone (SE).
 
-*Main Menu*
+*--Main Menu--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_main_menu.png" alt="linearly separable data">
 
-*Edit an existing record or create new*
+*--Edit an existing record or create new--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_create_new_order.png" alt="linearly separable data">
 
-*Order details page*
+*--Order details page--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_order_details.png" alt="linearly separable data">
 
-*Searchable checkboxes allowing a user to view two product IDs contained in an existing component order (Order "12").*
+*--Searchable checkboxes allowing a user to view two product IDs contained in an existing component order (Order "12")--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_search_order_schedule.png" alt="linearly separable data">
 
-*Changes made to records in this application are contained locally and placed in "Saved Entries" before they can be pushed back to the Appenate server.*
+*--Changes made to records in this application are contained locally and placed in "Saved Entries" before they can be pushed back to the Appenate server--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_saved_changes.png" alt="linearly separable data">
 
-*A view of several controls clearly identified in the wireframe design stage:*
-*Standard wheel picker*
+*--A view of several controls clearly identified in the wireframe design stage--*
+*--Standard wheel picker--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_picker_control.png" alt="linearly separable data">
 
-*Text entry through keyboard*
+*--Text entry through keyboard--*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/finaldesign_text_control.png" alt="linearly separable data">
 
