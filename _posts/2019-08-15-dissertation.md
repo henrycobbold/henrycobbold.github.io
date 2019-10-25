@@ -245,8 +245,19 @@ For this process I used a simple report format, as illustrated below.
 
 ## Main Project Outcomes, Evaluation and Reflection
 
-final application evaluation, my opinions and critical reflection section.
+To summarise the project outcomes a number of bullet-point statements can be drawn, as discussed below.
 
++ *The initial review of the existing JIT-based literature was of real use. Whilst the broad exploration uncovered numerous tools with which to precisely manage material flow, it was the significance of workplace scheduling and resource management that the author believes was of the most value to this project. Widely commended, these themes act as a base on which scheduling tools, such as 'Kanban', have been developed and applied to industries outside the historical sphere, but which could benefit from greater efficiency in the handling of resources or work scheduling."
+
++ *"In terms of usability, the prototype application should be considered a mixed success. The initial wireframes were seen to be reasonably effect when subjected to a developer-level usability evaluation and this process was of value in that it raised concerns and recommended changes to the mock-ups before subsequent user-based testing was undertaken".*
+
++ *"The user-testing processes raised some key considerations for the developer regarding design choices made, but the results and findings should be treated with caution. A sample of users who were quite unfamiliar with the issues took part in this process and only one participant had any degree of prior experience in the field of JIT; but still had no understanding of the precise scenario and tasks that they were expected to attempt".*
+
++ *"However, despite the highly promising results obtained from this process and the broader perspective this stage of testing offered, the usability of the initial prototype app cannot be considered quite as successful. The limited back-end functionality of 'Appenate' presented challenges that the developer was unable to overcome, and although a promising prototype has been developed, the nature of this platform means that considerable future development, at least with this tool, is restricted".*
+
++ *"I felt that this rather limited degree of client contact meant that on numerous occasions I was forced into following my instinct of 'best alternative option', instead of being able to make more confident and better-informed decisions. This is a factor over which I had little control due to the project scope, my time as a student and the time that my industry contacts could afford me. This was particularly apparent when I completed initial interface designs because, while I understand that these should have been approved by the software customer, the schedules for me and company contacts meant that this was not a viable option."
+
++ *" Given the highly pressurised nature of this company’s business and the well-established existing practices there has been little scope up to now to implement such a digital support tool – so GWR considered the developer’s project an undertaking of considerable potential value."*
 
 
 ### Work(s) used in project summary
