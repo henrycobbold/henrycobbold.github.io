@@ -16,7 +16,7 @@ My high standards and unwavering efforts were noted and I was incredibly honoure
 More on this piece of work, its timescales, outcomes and key components can be found in the Projects section of my portfolio. Alongside University projects on my portfolio are pieces of academic research and papers written by myself. These too can be found in posts within the site and are available in full on request through my contact details.
 
 
-Many Thanks,
+Many thanks,
 
 
 Henry.
