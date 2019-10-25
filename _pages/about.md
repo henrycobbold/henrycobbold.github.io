@@ -13,6 +13,8 @@ Unsurprisingly the themes of usability and user experience featured heavily with
 
 My high standards and unwavering efforts were noted and I was incredibly honoured to win the Universities *‘Development Project of the Year’* Award for my nine-month piece of work, an accolade that is presented to final year BSc students in the Faculty of Architecture, Computing and Engineering (FACE) across the Universities STEM subjects.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/project_demo_day_3.png" alt="linearly separable data">
+
 More on this piece of work, its timescales, outcomes and key components can be found in the Projects section of my portfolio. Alongside University projects on my portfolio are pieces of academic research and papers written by myself. These too can be found in posts within the site and are available in full on request through my contact details.
 
 
