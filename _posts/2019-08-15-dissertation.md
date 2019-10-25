@@ -16,16 +16,16 @@ Working closely with Great Western Railway (GWR) on a Just-in-Time component and
 
 The JIT theory is based on the concept that an efficient flow of materials provides greater agility, responsiveness and reduced costs.
 
-*“We got the idea of viewing the earlier process in a production line as a kind of store. The later process (customer) goes to the earlier process (supermarket) to acquire the needed parts (commodities) at the time and in the quantity needed. The earlier process immediately produces the quantity just taken (re-stocking the shelves)”* [14],[26].
+*“We got the idea of viewing the earlier process in a production line as a kind of store. The later process (customer) goes to the earlier process (supermarket) to acquire the needed parts (commodities) at the time and in the quantity needed. The earlier process immediately produces the quantity just taken (re-stocking the shelves)”* [1],[2].
 
 
 Below is a brief discussion of the different steps of the project with particular notes of interest and comment.
 
 ## Usability
 
-*“The extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use”* [65],[77],[84]
+*“The extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use”* [3],[4],[5]
 
-It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product [95].
+It is widely documented that "useable" software fulfils a range of qualities. This can be seen in Morville's honeycomb, a useful metric for evaluating a product [6].
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/morville_honeycomb.jpg" alt="linearly separable data">
 
@@ -131,7 +131,7 @@ Populating a central table:
 ```
 
 a single database audit table can be used to record DDL actions performed by database users, as shown below in this solution originally presented by
-Jack Worthen [178].
+Jack Worthen [7].
 
 ```sql
 CREATE TABLE WholeSystemLog(
@@ -197,23 +197,23 @@ Although the prototype was destined for an iPad screen size most screen views we
 
 ## Cognitive Walkthrough
 
-For each Personas associated User Story a walkthrough of the steps required to fulfil the user’s goal can now be performed. This is often performed before user testing so as to “clean up” the interface of fundamental design errors, such as missing control buttons or navigational inconsistencies. This process will help to make subsequent user testing more successful as it will help to allow *“users [to] focus on the experience of pursuing their goals”* [181] during task-based user tests.
+For each Personas associated User Story a walkthrough of the steps required to fulfil the user’s goal can now be performed. This is often performed before user testing so as to “clean up” the interface of fundamental design errors, such as missing control buttons or navigational inconsistencies. This process will help to make subsequent user testing more successful as it will help to allow *“users [to] focus on the experience of pursuing their goals”* [8] during task-based user tests.
 
 This understanding can be gained by asking four questions of a user at any location in the system:
 
-  Q1: Does the user know what needs to be done? Is the user aware of what they want or need to do? [183],[184]
+  Q1: Does the user know what needs to be done? Is the user aware of what they want or need to do? [9],[10]
 
-  Q2: Can the user see a control to do that? Is there anything visible that the user feels can help them perform this action? [183],[184]
+  Q2: Can the user see a control to do that? Is there anything visible that the user feels can help them perform this action? [9],[10]
 
-  Q3: Is it obvious how the control works? Is it clear how the on-screen visual should be used to achieve successful interaction? [183]
+  Q3: Is it obvious how the control works? Is it clear how the on-screen visual should be used to achieve successful interaction? [9]
 
-  Q4: Does the user understand the feedback they have been given? Can the user make sense of the outcome of the system interaction? [183],[184]
+  Q4: Does the user understand the feedback they have been given? Can the user make sense of the outcome of the system interaction? [9],[10]
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/cognitive_walkthrough_tables.png" alt="linearly separable data">
 
 Having evaluated these initial wireframe designs from a developer-perspective, a series of changes were required to ensure that the colour-wireframes passed this evaluation stage. The next step is to then to understand how users react to, and perform, tasks in these preliminary designs. To do this usability test scripts were key.
 
-To quickly and efficiently gather both qualitative and quantitative data Brooke's *"quick and dirty"* 'System Usability Scale' [186] was used alongside the universally popular Krug [187],[191] framework - devised and refined by Steve Krug.
+To quickly and efficiently gather both qualitative and quantitative data Brooke's *"quick and dirty"* 'System Usability Scale' [11] was used alongside the universally popular Krug [12],[13] framework - devised and refined by Steve Krug.
 
 Below shows the extracts of the Krug script, a popular and highly adaptable framework for user-based testing that has adopted and manipulated over time by many professionals.
 
@@ -234,7 +234,7 @@ At the end of the process a test user was invited to complete the SUS form, as w
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/brookes_SUS_form.png" alt="linearly separable data">
 
-In this scale a score of usability is calculated with the contribution of questions 1/3/5/7/9 the scale position indicated minus one. Questions 2/4/6/8/10 carrying forward a score 5 minus that indicated by the test subject on the form. The sum of the 10 fields are then totalled and multiplied by 2.5 to provide a score out of 100. 68 or above is suggested to represent above average system usability [186].
+In this scale a score of usability is calculated with the contribution of questions 1/3/5/7/9 the scale position indicated minus one. Questions 2/4/6/8/10 carrying forward a score 5 minus that indicated by the test subject on the form. The sum of the 10 fields are then totalled and multiplied by 2.5 to provide a score out of 100. 68 or above is suggested to represent above average system usability [11].
 
 This combination of soft user opinion and harder statistical data can now be more systematically documented in order to clearly identify the important trends experienced during the user testing; a process eased with access to the screen capture and microphone for reference.
 
@@ -262,32 +262,31 @@ To summarise the project outcomes a number of bullet-point statements can be dra
 
 ### Work(s) used in project summary
 
-[65] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
+[1] W. J. Hopp and M. L. Spearman, “To Pull or Not to Pull: What Is the Question?,” *Manuf. Serv. Oper. Manag.*, vol. 6, no. 2, pp. 133–148, 2004.
 
-[77] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.
+[2] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA: Productivity Press, 1988.
 
-[84] N. Bevan and M. Macleod, “Usability measurement in context,” *Behav. Inf. Technol.*, vol. 13, no. 1, pp. 132–145, 1994.
+[3] F. Nayebi, J.-M. Desharnais, and A. Abran, “The state of the art mobile application usability evaluation,” in *2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)*, 2012, pp. 1–4.
 
-[14] W. J. Hopp and M. L. Spearman, “To Pull or Not to Pull: What Is the Question?,” *Manuf. Serv. Oper. Manag.*, vol. 6, no. 2, pp. 133–148, 2004.
+[4] International Organisation for Standardisation (ISO), “Ergonomics of human-system interaction - Part 11: Usability: Definitions and Concepts,” Geneva, Switzerland, 2018.
 
-[26] T. Ohno, *Toyota Production System, Beyond Large Scale Production Systems.* Cambridge, MA:
-Productivity Press, 1988.
+[5] N. Bevan and M. Macleod, “Usability measurement in context,” *Behav. Inf. Technol.*, vol. 13, no. 1, pp. 132–145, 1994.
 
-[95] P. Morville, “User Experience Design,” *Semantic Studios*, 2004. [Online]. Available: https://semanticstudios.com/user_experience_design/. [Accessed: 18-Dec-2018].
+[6] P. Morville, “User Experience Design,” *Semantic Studios*, 2004. [Online]. Available: https://semanticstudios.com/user_experience_design/. [Accessed: 18-Dec-2018].
 
-[178] J. Worthen, “Creating A Log Table To Track Changes To Database Objects In SQL Server,” *SQL Server*, 2018. [Online]. Available: https://jackworthen.com/2018/03/19/creating-a-log-table- to-track-changes-to-database-objects-in-sql-server/. [Accessed: 15-Mar-2019].
+[7] J. Worthen, “Creating A Log Table To Track Changes To Database Objects In SQL Server,” *SQL Server*, 2018. [Online]. Available: https://jackworthen.com/2018/03/19/creating-a-log-table- to-track-changes-to-database-objects-in-sql-server/. [Accessed: 15-Mar-2019].
 
-[181] C. M. Barnum, *Usability Testing Essentials: Ready, Set... Test!,* 1st ed. Burlington, MA: Morgan Kaufmann, 2010.
+[8] C. M. Barnum, *Usability Testing Essentials: Ready, Set... Test!,* 1st ed. Burlington, MA: Morgan Kaufmann, 2010.
 
-[183] N. E. Jacobsen and B. E. John, “Two Case Studies in Using Cognitive Walkthrough for Interface Evaluation,” in *CMU-CS-00-132*, 2000.
+[9] N. E. Jacobsen and B. E. John, “Two Case Studies in Using Cognitive Walkthrough for Interface Evaluation,” in *CMU-CS-00-132*, 2000.
 
-[184] M. H. Blackmon, *Cognitive Walkthrough Cognitive Walkthrough Methodology*, vol. 1. Great Barrington, MA: Berkshire Publishing Group, 2004.
+[10] M. H. Blackmon, *Cognitive Walkthrough Cognitive Walkthrough Methodology*, vol. 1. Great Barrington, MA: Berkshire Publishing Group, 2004.
 
-[186] J. Brooke, “SUS - A quick and dirty usability scale,” *Smart Phone Appl. People with Brain Inj.*, vol. Smart phon, pp. 1–8, 2011.
+[11] J. Brooke, “SUS - A quick and dirty usability scale,” *Smart Phone Appl. People with Brain Inj.*, vol. Smart phon, pp. 1–8, 2011.
 
-[187] S. Krug, *Rocket surgery made easy: The do-it-yourself guide to finding and fixing usability problems*, 1st ed. Berkeley, CA: New Riders, 2010.
+[12] S. Krug, *Rocket surgery made easy: The do-it-yourself guide to finding and fixing usability problems*, 1st ed. Berkeley, CA: New Riders, 2010.
 
-[191] S. Krug, *Don’t make me think, revisited: a common sense approach to Web usability*, 3rd ed. San Francisco, CA: New Riders, 2014.
+[13] S. Krug, *Don’t make me think, revisited: a common sense approach to Web usability*, 3rd ed. San Francisco, CA: New Riders, 2014.
 
 
 <!--
