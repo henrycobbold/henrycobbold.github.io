@@ -146,13 +146,13 @@ CREATE TABLE WholeSystemLog(
 );
 ```
 
-The integrity of this table can be tested by executing a DDL action, in this scenario an 'ALTER_TABLE' statement, to ensure the event type is recorded along with the target object name (table name), DATETIME of SQL execution and the associated login name.
+The integrity of this table can be tested by executing a DDL action, in this scenario an `ALTER_TABLE` statement, to ensure the event type is recorded along with the target `OBJECT NAME (TABLE NAME)`, `DATETIME` of SQL execution and the associated login name.
 
 ```sql
 ALTER TABLE nnn_nnnnn ADD nnnnn_nnnnnnnnnnnnnnnn DATETIME;
 ```
 
-A simple 'SELECT (all)' statement is used to return all the entries in the log table.
+A simple `SELECT *` statement is used to return all the entries in the log table.
 
 ```sql
 SELECT * FROM nnnnnnnnnnnnnn WHERE EventType = 'ALTER_TABLE'
