@@ -288,7 +288,8 @@ To summarise the project outcomes a number of bullet-point statements can be dra
 
 [13] S. Krug, *Don’t make me think, revisited: a common sense approach to Web usability*, 3rd ed. San Francisco, CA: New Riders, 2014.
 
-[14] R. Molich, C. Riedemann, and L. Daske, “CPUX-UT Usability Test Report Example,” Int. Usability UX Qualif. Board (UXQB e.V.), no. March, pp. 1–40, 2015.
+[14] R. Molich, C. Riedemann, and L. Daske, “CPUX-UT Usability Test Report Example,” *Int. Usability UX Qualif. Board (UXQB e.V.)*, no. March, pp. 1–40, 2015.
+
 <!--
 
 COMMENTED OUT SECTION WHEN REQUIRED THAT CONTAINS ALL FORMATTING SYNTAX NEEDED:
@@ -343,4 +344,5 @@ Here's some math:
 
 $$z=x+y$$
 
-You can also put it inline $$z=x+y$$ -->
+You can also put it inline $$z=x+y$$
+-->
