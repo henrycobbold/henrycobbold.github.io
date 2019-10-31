@@ -238,7 +238,7 @@ In this scale a score of usability is calculated with the contribution of questi
 
 This combination of soft user opinion and harder statistical data can now be more systematically documented in order to clearly identify the important trends experienced during the user testing; a process eased with access to the screen capture and microphone for reference.
 
-For this process I used a simple report format, as illustrated below.
+For this process I used a simple report format, as illustrated below. This notation is recommended by the International Usability and UX Qualification Board (UXQB) [14].
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/formal_test_documentation.png" alt="linearly separable data">
 
@@ -288,7 +288,7 @@ To summarise the project outcomes a number of bullet-point statements can be dra
 
 [13] S. Krug, *Don’t make me think, revisited: a common sense approach to Web usability*, 3rd ed. San Francisco, CA: New Riders, 2014.
 
-
+[14] R. Molich, C. Riedemann, and L. Daske, “CPUX-UT Usability Test Report Example,” Int. Usability UX Qualif. Board (UXQB e.V.), no. March, pp. 1–40, 2015.
 <!--
 
 COMMENTED OUT SECTION WHEN REQUIRED THAT CONTAINS ALL FORMATTING SYNTAX NEEDED:
