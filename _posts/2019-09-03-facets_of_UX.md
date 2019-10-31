@@ -48,7 +48,7 @@ By accurately understanding how a user aims to use a system a developer can more
 User stories typically take place after a range of example users have been documented. The purpose of this activity is to be aware of how a given user could wish to interact with the system being developed and crucially how an individual’s goals, use of devices and potential frustrations help the developer design the configuration of system information [10]. Given the sometimes ‘fuzzy’ nature of a user’s perspective on a system this process does not
 concentrate on how a developer should solve design quandaries, just that they need considering in the new or revised system. The purpose of a scenario is to “concretely describe” [11] the use of a system, allowing the development team to attempt to most closely replicate the route that users take in a system to achieve a certain outcome. This “essence of an interaction design” takes an individual and creates a narrative in which the users, often identified in a physical state, describe and demonstrate their motivations, actions, current understanding and controls and/or interfaces that they “encounter and manipulate” [11] during this journey; often following the follow format:
 
-“As a *<type of user>* I want to *<some goal>* so that *<some action>*” [12]
+“As a <type of user> I want to <some goal> so that <some action>” [12]
 
 A user story can now be developed for each persona identified above, outlining the mental and physical processes involves with completing a task that is appropriate for the activities associated with that individual.
 
