@@ -22,18 +22,23 @@ There are various requirement gathering approaches used to help tease out the fe
 The exercise of brainstorming is of value given its capacity to generate new ideas, especially when this group activity includes potential users from a range of different backgrounds, such as course, faculty or level of study as throwing ideas into a central ‘melting pot’ can bring up functionality, or even specific design elements [5]. This is particularly powerful as “the most creative or effective ideas often result from combining seemingly unrelated ideas” [5], formulating unusual or original suggestions. Caution here is advised however as a brainstorming process should also highlight features that are not of primary interest to those in a particular group.
 This process, taking the form of an informal discussion driven by the question and response sheet, has been handed to individuals as a requirement gathering sheet, and undertaken as a group with several participants concurrently.
 
-[images of the req sheets goes in here]
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/app_req_sheet.png" alt="linearly separable data">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/app_req_sheet_2.png" alt="linearly separable data">
 
 Having collected the thoughts and opinions of several FACE students some key trends can be highlighted that must be considered in the development of initial wireframe designs. These are discussed below in the same order as raised on the requirement gathering forms.
 
 1. Understanding Current Software Usage
+
 Several respondents that completed the first requirements elicitations survey highlighted specialist software for their course that they currently use, such as “Visual Studio Enterprise and “Proteus”, whilst those that filled out the revised form generally noted more generic, wider software related to their University life such as the Microsoft package and Mendeley referencing software. From this it can be deduced that the ability to access core software, be it for download or license keys, and more niche course related packages need to be available in an application aimed at providing students with their software tools for study. This slight variation was only seen in several respondents where respondents listed just core module software--that was considered by one  student “compulsory for the course” [male, 29].
 
 2. Assessing the Existing University Website
+
 This question was included so that an understanding could be gained on existing issues with the university website and help identify elements that should be improved in a streamlined campus application. By asking an individual what they like and dislike in the current website, and importantly why, the designers can pay close attention to ensuring they are central to a new application. Several of the survey group highlighted the “Quick Links” page as something that they liked about the existing site because it they felt that it helped them “navigate to the relevant pages faster” [male, 26]. Alongside broad design elements there were precise user problems such as the fact it “doesn’t keep you logged in” [male, 26] and with the same individual believing that this made the logging in process “cumbersome”. Interestingly however that was the only real criticism received by this person about the university site, suggesting that overall it “combines into a good user experience”.
 Others highlighted far more obvious issues such as the number of pages and complexity of the site, so much so by one student he had no complaints about the system because he does not use it enough to properly comment – instead bookmarking every core page he regularly. Another raised the point that some navigation was broken or incorrectly linked, simply refreshing the existing page. Others had issues with colour and design continuity, an element of relative importance in developing a useful and credible app for students.
 
 3. Potential of a Campus App
+
 The general response to the question, “Would you be interested in a companion app” was positive with most students stating that they liked the idea, and most, when asked about some primary features listed platforms and sites that are central to a student’s day at University such as Email, Moodle and the library. Particular reference was made to the access of software and academic journal resources by several students, with one individual stressing the need for ‘search’ functionality for the library resources. The responses here clearly show how the study participants value tools that are integral to daily study. Of interest two people raised the issue of adverts. Given the nature of university software this would not be likely but illustrates how students in some cases could have applied their own experiences of other applications to this scenario.
 Overall the need for a streamlined and uncluttered program was shared by most correspondents who said the app should be clear, easy to navigate and only show the most relevant information; two fundamental objectives of the proposed system if it is to be considered useful and valuable.
 
@@ -41,7 +46,13 @@ Overall the need for a streamlined and uncluttered program was shared by most co
 
 By accurately understanding how a user aims to use a system a developer can more clearly evaluate the suitability of mock-up screen designs [6],[7] with Microsoft believing that using user personas have helped to “make our assumptions about the target audience more explicit” [8]. In this scenario it is anticipated that the campus companion application will be used primarily by FACE students that study in the Swansea SA1 campus but, given the diverse nature of ‘students’ and individuals studying an array of courses across various sites such an application should be designed in such a way that it is open to extendibility. For the purpose of this application the target user groups all study a FACE course, but the same format of user persona could be developed for a student studying at another campus in Swansea, or in Carmarthen or Lampeter.
 
-[all fictional user persona views in here]
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/face_app_persona.png" alt="linearly separable data">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/face_app_persona_2.png" alt="linearly separable data">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/face_app_persona2.png" alt="linearly separable data">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/face_app_persona2_2.png" alt="linearly separable data">
 
 ### User Stories
 
@@ -66,11 +77,12 @@ The structure of this system is polyhierarchical [13] for the reason that it acc
 
 Rosenfeld, Morville and Arango justify their reference of several definitions highlighting the incredibly diverse nature of information structures that underpin “digital products and services” [12]. Alternatively the Information Architecture Institute (IAA) have simplified this possible definition down to “The structural design of shared information environments” [14]. In terms of the scope of information architecture its composition is widely understood to revolve around three main components “Users”, “Content” and Context” [12]. This principle is seen in the IA Venn diagram, shown below, which illustrates how an information architecture is directly influenced by how the various facets interact with each other, a factor clearly seen in development of the university website as the focus of the main homepage is clearly centred towards promoting the establishment with less focus on providing easy access to student software services.
 
-[IA Venn diagram image in here]
+<img src="{{ site.url }}{{ site.baseurl }}/images/information_architecture_venn_diagram.png" alt="linearly separable data">
+
 
 The task facing many systems is the need to develop an information architecture that provides a “foundation for rapid response” [15] and the continual change of digital platforms today. This element of flexibility has a reduced significance in the development of a campus companion app thanks to the relatively rigid nature of core student platforms and services that are unlikely to change on a regular basis. Below a possible IA structure is presented.
 
-[possible IA diagram in here]
+<img src="{{ site.url }}{{ site.baseurl }}/images/example_app_information_architecture.png" alt="linearly separable data">
 
 ## Interface Designs
 
@@ -137,13 +149,13 @@ A new system should be intuitive to use, an important attribute to respect when 
 
 To help evaluate the suitability of the application interface, the use of a user acceptance testing, typically through mediums such as evaluations and practical tasks. Whilst the latter is of importance to understand the thought process of target user groups its benefits are limited thanks to the limited nature of initial wireframe designs and the relative extent to which users can explore the initial application designs in the process of test task fulfilment so as to demonstrate “conceptual integrity”, and "underlying consistency" [17].
 
-The use of Likert-based model, such as offered by Brooke [18] and illustrated in its entirety below is suitable due to the precise, distinct responses received to questions about system usability, attractiveness and continuity. As discussed in greater length in my dissertation highlights this matrix is designed to produce a single integer that represents overall usability.
+The use of Likert-based model, such as offered by Brooke [18], discussed at greater length in my dissertation highlights or the and illustrated in its entirety below is suitable due to the precise, distinct responses received to questions about system usability, attractiveness and continuity. As discussed in greater length in my dissertation highlights this matrix is designed to produce a single number that reflects usability.
 
-[likert response from the project module to show the ticket boxes]
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/usability_evaluation_questionnaire.png" alt="linearly separable data">
 
 Alongside this method is the far less quantifiable user testing, a valuable activity that gives an individual the space to act ‘normally’ allows them to perform in a more natural manner, meaning the results collected are more accurate of the users experience with the system [19].. This system provides users with typical system tasks to evaluate the degree of goal fulfilment, again based on Krug's [19] customisable framework, whereby users as asked questions such as *"How would you find _____?"*. Below are a series of sheets from these sessions, revised after the interview by revisiting the screen capture and microphone for any missed points.
 
-[a couple of views from the Krug script for this assignment during the testing of these mono wireframes]
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/krug_script_scribbled_notes.png" alt="linearly separable data">
 
 *Main Test Outcome(s)*
 
