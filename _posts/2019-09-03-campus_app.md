@@ -1,5 +1,5 @@
 ---
-title: "UXD - Prototype Campus Companion App"
+title: "UXD - Prototype Campus Companion App - Part 1"
 date: 2019-09-03
 tags: [Processes, Steps, Responsibilities, UX, Interaction Design]
 header:
@@ -28,16 +28,16 @@ This process, taking the form of an informal discussion driven by the question a
 
 Having collected the thoughts and opinions of several FACE students some key trends can be highlighted that must be considered in the development of initial wireframe designs. These are discussed below in the same order as raised on the requirement gathering forms.
 
-1. Understanding Current Software Usage
+1. Understanding current software usage
 
 Several respondents that completed the first requirements elicitations survey highlighted specialist software for their course that they currently use, such as “Visual Studio Enterprise and “Proteus”, whilst those that filled out the revised form generally noted more generic, wider software related to their University life such as the Microsoft package and Mendeley referencing software. From this it can be deduced that the ability to access core software, be it for download or license keys, and more niche course related packages need to be available in an application aimed at providing students with their software tools for study. This slight variation was only seen in several respondents where respondents listed just core module software--that was considered by one  student “compulsory for the course” [male, 29].
 
-2. Assessing the Existing University Website
+2. Assessing the existing university website
 
 This question was included so that an understanding could be gained on existing issues with the university website and help identify elements that should be improved in a streamlined campus application. By asking an individual what they like and dislike in the current website, and importantly why, the designers can pay close attention to ensuring they are central to a new application. Several of the survey group highlighted the “Quick Links” page as something that they liked about the existing site because it they felt that it helped them “navigate to the relevant pages faster” [male, 26]. Alongside broad design elements there were precise user problems such as the fact it “doesn’t keep you logged in” [male, 26] and with the same individual believing that this made the logging in process “cumbersome”. Interestingly however that was the only real criticism received by this person about the university site, suggesting that overall it “combines into a good user experience”.
 Others highlighted far more obvious issues such as the number of pages and complexity of the site, so much so by one student he had no complaints about the system because he does not use it enough to properly comment – instead bookmarking every core page he regularly. Another raised the point that some navigation was broken or incorrectly linked, simply refreshing the existing page. Others had issues with colour and design continuity, an element of relative importance in developing a useful and credible app for students.
 
-3. Potential of a Campus App
+3. Potential of a concentrated campus app
 
 The general response to the question, “Would you be interested in a companion app” was positive with most students stating that they liked the idea, and most, when asked about some primary features listed platforms and sites that are central to a student’s day at University such as Email, Moodle and the library. Particular reference was made to the access of software and academic journal resources by several students, with one individual stressing the need for ‘search’ functionality for the library resources. The responses here clearly show how the study participants value tools that are integral to daily study. Of interest two people raised the issue of adverts. Given the nature of university software this would not be likely but illustrates how students in some cases could have applied their own experiences of other applications to this scenario.
 Overall the need for a streamlined and uncluttered program was shared by most correspondents who said the app should be clear, easy to navigate and only show the most relevant information; two fundamental objectives of the proposed system if it is to be considered useful and valuable.
@@ -59,13 +59,13 @@ By accurately understanding how a user aims to use a system a developer can more
 User stories typically take place after a range of example users have been documented. The purpose of this activity is to be aware of how a given user could wish to interact with the system being developed and crucially how an individual’s goals, use of devices and potential frustrations help the developer design the configuration of system information [9]. Given the sometimes ‘fuzzy’ nature of a user’s perspective on a system this process does not
 concentrate on how a developer should solve design quandaries, just that they need considering in the new or revised system. The purpose of a scenario is to “concretely describe” [10] the use of a system, allowing the development team to attempt to most closely replicate the route that users take in a system to achieve a certain outcome. This “essence of an interaction design” takes an individual and creates a narrative in which the users, often identified in a physical state, describe and demonstrate their motivations, actions, current understanding and controls and/or interfaces that they “encounter and manipulate” [10] during this journey; often following the follow format:
 
-“As a *<type of user>* I want to *<some goal>* so that *<some action>*” [11]
+“As a <type of user> I want to <some goal> so that <some action>” [11]
 
 A user story can now be developed for each persona identified above, outlining the mental and physical processes involves with completing a task that is appropriate for the activities associated with that individual.
 
---
+
 *Ollie has arrived in University at 8:30 on a Tuesday morning and has a morning free of lectures. He is in early so as to continue with assignments that he has to hand in later in the month, so is looking for somewhere quiet to study in peace. He finds a space in the library and decides he first wants to open a PowerPoint presentation from one of lectures yesterday to pick up the notes from where he left off. He logs on to his Windows laptop and firstly opens his preferred browser, Chrome. In the URL bar he enters the following link, https://moodle.uwtsd.ac.uk so as to go to Moodle without using the University website at all. He has been doing this for the last 1 and a half years because he quickly learnt this link. Now Ollie is presented with the Moodle login page where he sees that he must log in to his university IT account. He duly completes his details with his ‘P’ number and password, clicking ‘Log In’ when complete. With success his is now shown the main Moodle page with this year’s module tiles arranged underneath a bar of other primary university links, such as Email and MyTSD. Ollie scrolls downwards to find the module he desires, Database Management Systems in this case, clicking on the tile to open it up. Once inside the module he scrolls downwards again to select the correct lecture notes to view – expanding the tile and clicking on the PowerPoint file to download it to his machine. As he keeps local backups of each week’s content, he wishes to save the file to his OneDrive, and so navigates to the corresponding folder in the “Save to” file explorer window. He clicks save when in the correct directory and minimises Moodle and the browser window so as to view the PowerPoint file – duly continuing with his note taking.*
---
+
 
 ## Information Architecture
 
@@ -78,7 +78,6 @@ The structure of this system is polyhierarchical [13] for the reason that it acc
 Rosenfeld, Morville and Arango justify their reference of several definitions highlighting the incredibly diverse nature of information structures that underpin “digital products and services” [12]. Alternatively the Information Architecture Institute (IAA) have simplified this possible definition down to “The structural design of shared information environments” [14]. In terms of the scope of information architecture its composition is widely understood to revolve around three main components “Users”, “Content” and Context” [12]. This principle is seen in the IA Venn diagram, shown below, which illustrates how an information architecture is directly influenced by how the various facets interact with each other, a factor clearly seen in development of the university website as the focus of the main homepage is clearly centred towards promoting the establishment with less focus on providing easy access to student software services.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/information_architecture_venn_diagram.png" alt="linearly separable data">
-
 
 The task facing many systems is the need to develop an information architecture that provides a “foundation for rapid response” [15] and the continual change of digital platforms today. This element of flexibility has a reduced significance in the development of a campus companion app thanks to the relatively rigid nature of core student platforms and services that are unlikely to change on a regular basis. Below a possible IA structure is presented.
 
@@ -98,7 +97,7 @@ Before offering conceivable mobile device designs it is important to first inspe
 
 Below a reworked version of the current UWTSD website is shown, created in Balsamiq. This is a nice lightweight wireframing tool that allows speedy interface mockups.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/Reworked_existing_UWTSD_website.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/reworked_existing_UWTSD_website.png" alt="linearly separable data">
 
 ## Wireframe designs
 
@@ -112,7 +111,7 @@ Below a reworked version of the current UWTSD website is shown, created in Balsa
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/splasher_screen.png" alt="linearly separable data">
 
 *--sign in screen--*
-<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/sign_in_screen.png.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/sign_in_screen.png" alt="linearly separable data">
 
 *-sign in screen--*
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/sign_in_screen_copy.png" alt="linearly separable data">
@@ -149,28 +148,29 @@ A new system should be intuitive to use, an important attribute to respect when 
 
 To help evaluate the suitability of the application interface, the use of a user acceptance testing, typically through mediums such as evaluations and practical tasks. Whilst the latter is of importance to understand the thought process of target user groups its benefits are limited thanks to the limited nature of initial wireframe designs and the relative extent to which users can explore the initial application designs in the process of test task fulfilment so as to demonstrate “conceptual integrity”, and "underlying consistency" [17].
 
-The use of Likert-based model, such as offered by Brooke [18], discussed at greater length in my dissertation highlights or the and illustrated in its entirety below is suitable due to the precise, distinct responses received to questions about system usability, attractiveness and continuity. As discussed in greater length in my dissertation highlights this matrix is designed to produce a single number that reflects usability.
+The use of Likert-based "SUS" model, such as offered by Brooke [18], discussed at greater length in my dissertation highlights or the "Usability Evaluation Questionnaire", as shown below, is suitable due to the precise, distinct responses received to questions about system usability, attractiveness and continuity. As discussed in greater length in my dissertation highlights this matrix is designed to produce a single number that reflects usability.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/usability_evaluation_questionnaire.png" alt="linearly separable data">
 
-Alongside this method is the far less quantifiable user testing, a valuable activity that gives an individual the space to act ‘normally’ allows them to perform in a more natural manner, meaning the results collected are more accurate of the users experience with the system [19].. This system provides users with typical system tasks to evaluate the degree of goal fulfilment, again based on Krug's [19] customisable framework, whereby users as asked questions such as *"How would you find _____?"*. Below are a series of sheets from these sessions, revised after the interview by revisiting the screen capture and microphone for any missed points.
+Alongside this method is the far less quantifiable user testing, a valuable activity that gives an individual the space to act ‘normally’ allows them to perform in a more natural manner, meaning the results collected are more accurate of the users experience with the system [19]. This system provides users with typical system tasks to evaluate the degree of goal fulfilment, again based on Krug's [19] customisable framework, whereby users as asked questions such as *"How would you find _____?"*. Below is one sheet from these sessions, revised after the interview by revisiting the screen capture and microphone for any missed points.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/krug_script_scribbled_notes.png" alt="linearly separable data">
 
 *Main Test Outcome(s)*
 
-1. UWTSD internal library and external subject-specific databases were being confused
+**UWTSD internal library and external subject-specific databases were being confused**
 This feedback was not noted during the completion of any tasks, but as a question and comment for the interviewer when completing the exercise of quickly requesting a known book in the library.
 The labelling here is therefore misleading as is and needs alteration, despite the presence of small icons which were not considered helpful in this instance.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/library_button_control.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/library_buttons_control.png" alt="linearly separable data">
 
-2. “Search” might be being overlooked
+**“Search” might be being overlooked**
 When required to move from one flow of interaction to another very few users opted to quickly use this feature - despite its constant position in the bottom bar. One user, quickly identifying its potential discounted the functionality, suggesting such controls often “do not provide the results that I am looking for” [Male, 24]. Furthermore they suggested that an ever-present option to go “Home” instead would enable a user to quickly and easily jump back to the start and begin a new flow of interaction.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/search_control.png" alt="linearly separable data">
 
-3. During the requirements gathering phase the idea of a quick request system, designed to help speed up the task of reserving a book, was generally supported. However, in this first development iteration its purpose and functionality has caused some misunderstanding and has raised a number of questions.
+**Icon Use**
+During the requirements gathering phase the idea of a quick request system, designed to help speed up the task of reserving a book, was generally supported. However, in this first development iteration its purpose and functionality has caused some misunderstanding and has raised a number of questions.
 
 “Do I already need to have a book saved in order to quickly request it?” [Female, 21]
 “Do I need to find the book in the app first?” [Male, 32]
