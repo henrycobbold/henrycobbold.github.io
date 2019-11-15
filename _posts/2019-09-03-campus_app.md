@@ -126,7 +126,7 @@ Below a reworked version of the current UWTSD website is shown, created in Balsa
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/moodle_menu.png" alt="linearly separable data">
 
 *--module view--*
-<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/module_view.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/moodle_module_view.png" alt="linearly separable data">
 
 *--my programs and app integration menu--*
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/my_programs_menu.png" alt="linearly separable data">
