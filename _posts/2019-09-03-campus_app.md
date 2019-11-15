@@ -158,18 +158,18 @@ Alongside this method is the far less quantifiable user testing, a valuable acti
 
 *Main Test Outcome(s)*
 
-**UWTSD internal library and external subject-specific databases were being confused**
+**UWTSD internal library and external subject-specific databases were being confused.**
 This feedback was not noted during the completion of any tasks, but as a question and comment for the interviewer when completing the exercise of quickly requesting a known book in the library.
 The labelling here is therefore misleading as is and needs alteration, despite the presence of small icons which were not considered helpful in this instance.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/library_buttons_control.png" alt="linearly separable data">
 
-**“Search” might be being overlooked**
+**“Search” might be being overlooked.**
 When required to move from one flow of interaction to another very few users opted to quickly use this feature - despite its constant position in the bottom bar. One user, quickly identifying its potential discounted the functionality, suggesting such controls often “do not provide the results that I am looking for” [Male, 24]. Furthermore they suggested that an ever-present option to go “Home” instead would enable a user to quickly and easily jump back to the start and begin a new flow of interaction.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/mono_campus_app_wireframes/search_control.png" alt="linearly separable data">
 
-**Icon Use**
+**Icon Use.**
 During the requirements gathering phase the idea of a quick request system, designed to help speed up the task of reserving a book, was generally supported. However, in this first development iteration its purpose and functionality has caused some misunderstanding and has raised a number of questions.
 
 “Do I already need to have a book saved in order to quickly request it?” [Female, 21]
