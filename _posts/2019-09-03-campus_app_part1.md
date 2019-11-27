@@ -9,7 +9,7 @@ excerpt: "Discussion, UXD, Usability, Interaction Design, Evaluation, Responsibi
 
 # Introduction
 
-Roto, Rantavuo and Väänänen-Vainio-Mattila [1] suggest that a high degree of user experience (UX henceforth) satisfaction “comes from the value and meaning of the product concept itself” [1], a deeper-routed notion than UI that concentrates on a “means of interact[ion]” [1]. Despite this clear separation they are inexplicably linked, an idea that can be clearly seen in the case of the existing UWTSD website, an evaluation of which will help design a campus application for students of the FACE faculty that provides a quality user experience by fulfilling the diverse motivations of Computing, Engineering and Architecture students of various ages and technical proficiency within the SA1 Campus.
+Roto, Rantavuo and Väänänen-Vainio-Mattila [1] suggest that a high degree of user experience (UX henceforth) satisfaction “comes from the value and meaning of the product concept itself” [1], a deeper-routed notion than UI that concentrates on a “means of interact[ion]” [1]. Despite this clear separation they are inexplicably linked, an idea that can be clearly seen in the case of the existing UWTSD website, an evaluation of which will help design a campus application for students of the FACE faculty. This new system must provide a quality user experience by fulfilling the diverse motivations of Computing, Engineering and Architecture students of various ages, technical proficiency and application use within the SA1 Campus.
 
 ## Requirement Gathering and User Research
 
@@ -85,7 +85,7 @@ The task facing many systems is the need to develop an information architecture 
 
 ## Interface Designs
 
-### Learning Lessons from the existing UWTSD sites
+### Learning lessons from the existing UWTSD sites
 
 Before offering conceivable mobile device designs it is important to first inspect existing interface designs. Evaluating the UWTSD University website highlights several key interface design elements that a new mobile-based platform should avoid in order to offer a suitable experience for students on and off-campus.
 
